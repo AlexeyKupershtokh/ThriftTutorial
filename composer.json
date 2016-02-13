@@ -1,5 +1,10 @@
 {
     "require": {
         "apache/thrift": "^0.9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "gen-php/"
+        }
     }
 }

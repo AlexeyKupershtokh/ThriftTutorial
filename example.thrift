@@ -14,7 +14,7 @@ struct AuthenticateResponse {
   2: bool linkedProfileAvailable,
 }
 
-service ServerQueriesHandler {
+service ExampleService {
   string ping(),
 
   AuthenticateResponse authenticate(1: AuthenticateRequest authenticateRequest)
